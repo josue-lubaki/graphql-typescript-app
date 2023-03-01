@@ -1,5 +1,5 @@
 import { ApolloServerPluginDrainHttpServer } from 'apollo-server-core';
-import { ApolloServer, ExpressContext, gql } from 'apollo-server-express';
+import { ApolloServer, ExpressContext } from 'apollo-server-express';
 import * as express from 'express';
 import { Server } from 'http';
 import Db from './db';
